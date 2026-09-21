@@ -16,6 +16,7 @@ An interactive 3D solar system planetarium built with React, Three.js, and React
 ## Quick Start
 
 ### Requirements
+
 - Node.js 16+
 - npm 8+
 
@@ -46,26 +47,28 @@ npm run lint        # ESLint (0-error strict mode)
 **Stack**: React 18 + Vite + Three.js + React Three Fiber + Drei + GSAP
 
 ### Data Flow
+
 1. `src/pages/Scene.jsx` fetches `/assets/bodies.json` (25 celestial bodies: 1 Star, 9 Planets, 15 Moons)
 2. Passes `objects` array to `Navbar` (no redundant fetches)
 3. Maps each body by `bodyType` → generic `<Sun>` / `<Planet>` / `<Moon>` components
 4. 3D models and textures loaded via `useGLTF()` from local `/assets/planets/3d/*.glb` and `/assets/*/images/*.png`
 
 ### State Management
+
 - **No global store** — Redux removed (was only used for Home overlay toggle, now deleted)
 - **Local state** in `Scene.jsx` → threaded via props through `Navbar` → `NavbarItem` → `TurnPlanet`
 - Selected body (`indexObject`), moons, card open/closed, loading flag all live as `useState`
 
 ### Key Components
 
-| Component | Path | Role |
-|-----------|------|------|
-| `Scene` | `src/pages/Scene.jsx` | Main canvas, data fetch, state orchestration |
-| `Sun` | `src/components/Objects/Sun.jsx` | Renders the Sun (useGLTF) |
-| `Planet` | `src/components/Objects/Planet.jsx` | Renders planets + their moons, camera focus tween |
-| `Moon` | `src/components/Objects/Moon.jsx` | Renders moons (as children of planets) |
-| `Navbar` | `src/components/Navbar/Navbar.jsx` | Bottom navigation bar (Stars + Planets only) |
-| `Card` | `src/components/Card/Card.jsx` | Info panel for clicked body |
+| Component | Path                                | Role                                              |
+| --------- | ----------------------------------- | ------------------------------------------------- |
+| `Scene`   | `src/pages/Scene.jsx`               | Main canvas, data fetch, state orchestration      |
+| `Sun`     | `src/components/Objects/Sun.jsx`    | Renders the Sun (useGLTF)                         |
+| `Planet`  | `src/components/Objects/Planet.jsx` | Renders planets + their moons, camera focus tween |
+| `Moon`    | `src/components/Objects/Moon.jsx`   | Renders moons (as children of planets)            |
+| `Navbar`  | `src/components/Navbar/Navbar.jsx`  | Bottom navigation bar (Stars + Planets only)      |
+| `Card`    | `src/components/Card/Card.jsx`      | Info panel for clicked body                       |
 
 ### Camera & Animation
 
@@ -84,6 +87,7 @@ The app is deployed to a homelab server (`root@caddy.home`) via Caddy + Cloudfla
 ```
 
 This:
+
 1. Runs `npm run build`
 2. Rsyncs `dist/` to `/var/www/apollo/` on the server
 3. Caddy serves it as `apollo.martinnoel.fr`
@@ -144,7 +148,7 @@ public/
 
 ## Credits
 
-Built as a Wild Code School bootcamp project by PtBambie, J.L.P, PeePooDoo, and Fennec-Tourmenté.
+Built as a Wild Code School bootcamp project.
 
 Data sourced from [le-systeme-solaire.net API](https://api.le-systeme-solaire.net).
 
