@@ -1,0 +1,57 @@
+{
+    "bodies": [{
+        "id": "saturne",
+        "name": "Saturne",
+        "englishName": "Saturn",
+        "image": "https://apollo-api.martinnoel.fr/solar-system/planets/images/saturn.png",
+        "3dModel": "https://apollo-api.martinnoel.fr/solar-system/planets/3d/saturn.glb",
+        "englishDescription": "Best known for its thick rings of about 20 meters, they were probably created from debris from an ancient moon that it collided with. According to some scientists, storms in the upper layers of its atmosphere cause diamond rain! Enough to make your favorite rapper jealous.",
+        "frenchDescription": "Surtout connue pour ses anneaux épais d’une vingtaine de mètres, ils ont probablement été créés à partir de débris d’une ancienne lune qu’elle aurait percutée. Selon certains scientifiques, des orages dans les couches supérieures de son atmosphère provoqueraient des pluies de diamants ! De quoi rendre jaloux ton MC préféré.",
+        "isPlanet": true,
+        "moons": [
+            {
+            "moon": "Encelade",
+            "rel": "https://apollo-api.martinnoel.fr/solar-system/moons/encelade"
+            },
+            {
+            "moon": "Titan",
+            "rel": "https://apollo-api.martinnoel.fr/solar-system/moons/titan"
+            }
+
+        ],
+        "semimajorAxis": 1426666422,
+        "perihelion": 1349823615,
+        "aphelion": 1503509229,
+        "eccentricity": 0.0565,
+        "inclination": 2.485,
+        "mass": {
+            "massValue": 5.68336,
+            "massExponent": 26
+        },
+        "vol": {
+            "volValue": 8.2713,
+            "volExponent": 14
+        },
+        "density": 0.6871,
+        "gravity": 10.44,
+        "escape": 36090,
+        "meanRadius": 58232,
+        "equaRadius": 60268,
+        "polarRadius": 54364,
+        "flattening": 0.09796,
+        "dimension": "",
+        "sideralOrbit": 10759.22,
+        "sideralRotation": 10.656,
+        "aroundPlanet": null,
+        "discoveredBy": "",
+        "discoveryDate": "",
+        "alternativeName": "",
+        "axialTilt": 26.73,
+        "avgTemp": 134,
+        "mainAnomaly": 317.02,
+        "argPeriapsis": 336.178,
+        "longAscNode": 113.759,
+        "bodyType": "Planet",
+        "rel": "https://apollo-api.martinnoel.fr/solar-system/planets/saturn"
+    }]
+}

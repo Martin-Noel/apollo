@@ -1,0 +1,47 @@
+{
+    "bodies": [{
+        "id": "callisto",
+        "name": "Callisto",
+        "englishName": "Callisto",
+        "image": "https://apollo-api.martinnoel.fr/solar-system/moons/images/callisto.png",
+		"3dModel": "https://apollo-api.martinnoel.fr/solar-system/moons/3d/callisto.glb",
+		"englishDescription": "Callisto is the farthest moon from Jupiter and the third-largest moon in our solar system, making it one of the Galilean moons which are the four largest moons of Jupiter.",
+		"frenchDescription": "Callisto est la lune la plus éloignée de Jupiter et la troisième plus grande lune de notre système solaire et fait donc partie des lunes galiléennes qui sont les quatres plus grandes lunes de Jupiter.",
+        "isPlanet": false,
+        "moons": null,
+        "semimajorAxis": 1882700,
+        "perihelion": 0,
+        "aphelion": 0,
+        "eccentricity": 0.007,
+        "inclination": 0.192,
+        "mass": {
+            "massValue": 1.0759,
+            "massExponent": 23
+        },
+        "vol": null,
+        "density": 1.83,
+        "gravity": 1.235,
+        "escape": 0,
+        "meanRadius": 2410.3,
+        "equaRadius": 0,
+        "polarRadius": 0,
+        "flattening": 0,
+        "dimension": "",
+        "sideralOrbit": 16.68902,
+        "sideralRotation": 400.536,
+        "aroundPlanet": {
+            "planet": "jupiter",
+            "rel": "https://apollo-api.martinnoel.fr/solar-system/planets/jupiter"
+        },
+        "discoveredBy": "Galileo Galilei",
+        "discoveryDate": "07/01/1610",
+        "alternativeName": "",
+        "axialTilt": 0,
+        "avgTemp": 0,
+        "mainAnomaly": 0,
+        "argPeriapsis": 0,
+        "longAscNode": 0,
+        "bodyType": "Moon",
+        "rel": "https://apollo-api.martinnoel.fr/solar-system/moons/callisto"
+    }]
+}

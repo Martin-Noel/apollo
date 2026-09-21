@@ -1,0 +1,47 @@
+{
+    "bodies":[{
+        "id": "venus",
+        "name": "Vénus",
+        "englishName": "Venus",
+        "image": "https://apollo-api.martinnoel.fr/solar-system/planets/images/venus.png",
+        "3dModel": "https://apollo-api.martinnoel.fr/solar-system/planets/3d/venus.glb",
+        "englishDescription": "It's the planet with the slowest rotation in the solar system, taking 243 days to rotate around itself. It rotates in the opposite direction to the other planets, with the sun rising in the west. It emits the second most powerful source of light after the Moon and can be seen with the naked eye! Kind of like your frustration after being killed by my 7-year-old cousin Timmy in Fortnite.",
+        "frenchDescription": "C’est la planète avec la rotation la plus lente du système solaire, elle met 243 jours à tourner autour d’elle même. Elle tourne dans le sens opposé à celui des autres planètes, le soleil se lève à l’ouest. Elle émet la deuxième source de lumière la plus puissante après la Lune et peut être vue à l'œil nu! Un peu comme ton seum après t'être fait kill par Timmy, mon petit cousin de 7 ans, sur Fortnite.",
+        "isPlanet": true,
+        "moons": null,
+        "semimajorAxis": 108208475,
+        "perihelion": 107477000,
+        "aphelion": 108939000,
+        "eccentricity": 0.0067,
+        "inclination": 3.39,
+        "mass": {
+            "massValue": 4.86747,
+            "massExponent": 24
+        },
+        "vol": {
+            "volValue": 9.2843,
+            "volExponent": 11
+        },
+        "density": 5.243,
+        "gravity": 8.87,
+        "escape": 10360,
+        "meanRadius": 6051.8,
+        "equaRadius": 6051.8,
+        "polarRadius": 6051.8,
+        "flattening": 0,
+        "dimension": "",
+        "sideralOrbit": 224.701,
+        "sideralRotation": -5832.5,
+        "aroundPlanet": null,
+        "discoveredBy": "",
+        "discoveryDate": "",
+        "alternativeName": "",
+        "axialTilt": 177.36,
+        "avgTemp": 737,
+        "mainAnomaly": 50.115,
+        "argPeriapsis": 54.78,
+        "longAscNode": 76.785,
+        "bodyType": "Planet",
+        "rel": "https://apollo-api.martinnoel.fr/solar-system/planets/venus"
+    }]
+}

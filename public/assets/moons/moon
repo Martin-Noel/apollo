@@ -1,0 +1,50 @@
+{
+    "bodies": [{
+        "id": "lune",
+        "name": "La Lune",
+        "englishName": "Moon",
+        "image": "https://apollo-api.martinnoel.fr/solar-system/moons/images/moon.png",
+		"3dModel": "https://apollo-api.martinnoel.fr/solar-system/moons/3d/moon.glb",
+		"englishDescription": "It is devoid of a significant atmosphere and magnetic field. The moon also experiences tides, which are caused by the gravitational forces of the Earth. It is our largest natural satellite but not the only one! These mini moons are rocky bodies that are gravitationally captured by the Earth.",
+		"frenchDescription": "Elle est dépourvue d'atmosphère significative et de champs magnétique. La Lune a également des marées, qui sont causées par les forces gravitationnelles de la Terre. C’est notre plus gros satellite naturel mais pas le seul! Ces mini-lunes sont des corps rocheux qui sont capturés gravitationnellement par la Terre.",
+        "isPlanet": false,
+        "moons": null,
+        "semimajorAxis": 384400,
+        "perihelion": 363300,
+        "aphelion": 405500,
+        "eccentricity": 0.0549,
+        "inclination": 5.145,
+        "mass": {
+            "massValue": 7.346,
+            "massExponent": 22
+        },
+        "vol": {
+            "volValue": 2.1968,
+            "volExponent": 10
+        },
+        "density": 3.344,
+        "gravity": 1.62,
+        "escape": 2380,
+        "meanRadius": 1737,
+        "equaRadius": 1738.1,
+        "polarRadius": 1736,
+        "flattening": 0.0012,
+        "dimension": "",
+        "sideralOrbit": 27.3217,
+        "sideralRotation": 655.728,
+        "aroundPlanet": {
+            "planet": "terre",
+            "rel": "https://apollo-api.martinnoel.fr/solar-system/planets/earth"
+        },
+        "discoveredBy": "",
+        "discoveryDate": "",
+        "alternativeName": "",
+        "axialTilt": 6.68,
+        "avgTemp": 0,
+        "mainAnomaly": 0,
+        "argPeriapsis": 0,
+        "longAscNode": 0,
+        "bodyType": "Moon",
+        "rel": "https://apollo-api.martinnoel.fr/solar-system/moons/moon"
+    }]
+}

@@ -1,6 +1,5 @@
 import Logo from './Logo/Logo';
 import Clock from './Clock';
-import Info from './Info/Info'
 import './Header.css';
 
 const Header = () => {
@@ -8,7 +7,6 @@ const Header = () => {
         <div className='header-container'>
             <Logo />
             <Clock />
-            <Info />
         </div>
     );
 };

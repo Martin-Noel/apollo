@@ -1,6 +1,7 @@
 import { Clone, Torus, useGLTF, Center } from '@react-three/drei'
 import { useFrame, useThree } from '@react-three/fiber';
 import { useRef, useState } from 'react';
+import PropTypes from 'prop-types';
 import Moon from './Moon';
 import {gsap} from 'gsap';
 import './Planet.css'
@@ -53,8 +54,9 @@ const Planet = ({planet, moons, indexObject, indexAstre}) => {
         turnArroundSun.current.rotation.y += (earthOrbit / sideralOrbit) / 1000; //rotation de la planete autour du soleil
         
         if (indexAstre === indexObject){
-            
+
            if(!isFocus){
+                setIsFocus(true)
 
                 if(meanRadius > 0.0050 )
 
@@ -91,6 +93,8 @@ const Planet = ({planet, moons, indexObject, indexAstre}) => {
             }
         }
         targetPlanet()
+        } else if (isFocus) {
+            setIsFocus(false)
         }
     })
 
@@ -129,5 +133,22 @@ const Planet = ({planet, moons, indexObject, indexAstre}) => {
         </>
     )
 }
+
+Planet.propTypes = {
+    planet: PropTypes.shape({
+        meanRadius: PropTypes.number.isRequired,
+        aphelion: PropTypes.number.isRequired,
+        sideralRotation: PropTypes.number.isRequired,
+        axialTilt: PropTypes.number.isRequired,
+        sideralOrbit: PropTypes.number.isRequired,
+        model3d: PropTypes.string.isRequired,
+    }).isRequired,
+    moons: PropTypes.arrayOf(PropTypes.shape({
+        id: PropTypes.string,
+        aphelion: PropTypes.number,
+    })),
+    indexObject: PropTypes.oneOfType([PropTypes.number, PropTypes.string]).isRequired,
+    indexAstre: PropTypes.number.isRequired,
+};
 
 export default Planet

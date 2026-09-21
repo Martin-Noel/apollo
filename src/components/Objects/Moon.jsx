@@ -1,16 +1,16 @@
 import { useGLTF} from '@react-three/drei'
 import { useRef } from 'react';
+import PropTypes from 'prop-types';
 
 const Moon = ({moon}) => {
 
-    
-    let { model3d, aphelion, meanRadius } = moon; //let because we modify some value for scale
-    
+
+    let { model3d, meanRadius } = moon; //let because we modify some value for scale
+
     const moonModel = useGLTF(model3d);
     const turnArroundPlanet = useRef();
     const moonRef = useRef();
 
-    aphelion /= 150000;
     meanRadius /= 7000000;
 
     return (
@@ -28,5 +28,12 @@ const Moon = ({moon}) => {
 
   )
 }
+
+Moon.propTypes = {
+    moon: PropTypes.shape({
+        model3d: PropTypes.string.isRequired,
+        meanRadius: PropTypes.number.isRequired,
+    }).isRequired,
+};
 
 export default Moon

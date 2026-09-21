@@ -1,4 +1,5 @@
 import { Clone, useGLTF } from '@react-three/drei';
+import PropTypes from 'prop-types';
 
 const Sun = ({sun}) => {
 
@@ -9,10 +10,17 @@ meanRadius /= 100000000
 
   return (
         <Clone
-            object={sunModel.scene} 
-            scale={meanRadius}         
+            object={sunModel.scene}
+            scale={meanRadius}
         />
   )
 }
+
+Sun.propTypes = {
+    sun: PropTypes.shape({
+        model3d: PropTypes.string.isRequired,
+        meanRadius: PropTypes.number.isRequired,
+    }).isRequired,
+};
 
 export default Sun

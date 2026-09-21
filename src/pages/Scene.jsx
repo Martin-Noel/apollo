@@ -1,7 +1,8 @@
-import { useState, useEffect } from 'react';
-import { Canvas } from '@react-three/fiber';
+import { useState, useEffect, Suspense } from 'react';
+import { Canvas, useThree } from '@react-three/fiber';
 import { Stars, OrbitControls, PerspectiveCamera } from '@react-three/drei';
 import { SpinnerDotted } from 'spinners-react';
+import { gsap } from 'gsap';
 import axios from 'axios';
 import Header from '../components/Header/Header';
 import Card from '../components/Card/Card';
@@ -9,6 +10,27 @@ import Navbar from '../components/Navbar/Navbar';
 import Sun from '../components/Objects/Sun';
 import Planet from '../components/Objects/Planet';
 import './Scene.css';
+
+// Starting camera position for the arrival animation below - far outside the solar system.
+const START_POSITION = [-2000, 2000, 2000];
+// Camera position once the app has "arrived" - the scene's normal starting view.
+const DEFAULT_POSITION = [-70, 70, 70];
+
+const CameraIntro = () => {
+    const { camera } = useThree();
+
+    useEffect(() => {
+        gsap.to(camera.position, {
+            x: DEFAULT_POSITION[0],
+            y: DEFAULT_POSITION[1],
+            z: DEFAULT_POSITION[2],
+            duration: 4,
+            ease: 'power2.out',
+        });
+    }, [camera]);
+
+    return null;
+};
 
 const Scene = () => {
 
@@ -18,7 +40,6 @@ const Scene = () => {
     const [moons, setMoons] = useState({});
 
     const [indexObject, setIndexObject] = useState('')
-    console.log(indexObject);
 
     const handleSetObject = (indexObject) => {
         setIndexObject( indexObject )
@@ -33,7 +54,7 @@ const Scene = () => {
 
     useEffect(() => {
         axios
-          .get('https://apollo-api.martinnoel.fr/solar-system/solar-system')
+          .get('/assets/bodies.json')
           .then((res) => {
 
             const moonsMap = {}
@@ -62,8 +83,7 @@ const Scene = () => {
         <div className="canvas">
           {isLoading ? (
             <div className='loading'>
-            <img className='capybara' src="https://i.redd.it/capy-is-king-v0-ian6ahoqhqna1.png?s=5639c3866298be9ecffdfe3c8f34f9f8371e885e" alt="capybara" />
-            <span>Loading</span> 
+            <span>Loading</span>
             <SpinnerDotted color="#424463" />
             </div>
             ) : (
@@ -85,11 +105,13 @@ const Scene = () => {
             shadows
 
             >
-                <PerspectiveCamera makeDefault 
-                                    position={[-70, 70, 70]}
+                <PerspectiveCamera makeDefault
+                                    position={START_POSITION}
                                     fov={45}
                                     near={0.1}
                                     far={6000} />
+
+                <CameraIntro />
 
                 <OrbitControls />
 
@@ -108,22 +130,25 @@ const Scene = () => {
                 castShadow
                 />
 
-              {objects &&
-                objects
-                  .map((astre, indexAstre) => {
-                     if (astre.bodyType === 'Star') return <Sun key={astre.id} sun={astre}  />                                             
-                     if (astre.bodyType === 'Planet') return <Planet key={astre.id} 
-                                                                     planet={astre} 
-                                                                     moons={moons[astre.id]} 
-                                                                     indexObject={indexObject} 
-                                                                     indexAstre={indexAstre} />
-                    return null;
-                    })}
+              <Suspense fallback={null}>
+                {objects &&
+                  objects
+                    .map((astre, indexAstre) => {
+                       if (astre.bodyType === 'Star') return <Sun key={astre.id} sun={astre}  />
+                       if (astre.bodyType === 'Planet') return <Planet key={astre.id}
+                                                                       planet={astre}
+                                                                       moons={moons[astre.id]}
+                                                                       indexObject={indexObject}
+                                                                       indexAstre={indexAstre} />
+                      return null;
+                      })}
+              </Suspense>
             </Canvas>
             </>
               )}
         </div>
-        <Navbar handleSetObject={handleSetObject}
+        <Navbar objects={objects}
+                handleSetObject={handleSetObject}
                 handleClicked={handleClicked}/>
       </div>
     );

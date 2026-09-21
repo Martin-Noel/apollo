@@ -1,0 +1,46 @@
+{
+    "bodies": [{
+        "id": "oberon",
+        "name": "Obéron",
+        "englishName": "Oberon",
+        "image": "https://apollo-api.martinnoel.fr/solar-system/moons/images/oberon.png",
+		"3dModel": "https://apollo-api.martinnoel.fr/solar-system/moons/3d/oberon.glb",
+		"englishDescription": "Oberon is the second moon of Uranus and also the largest. The surface of Oberon is covered with impact craters, canyons, valleys, and plains. Like Miranda, it also has unique mountain ranges. The surface of Oberon is the oldest and most geologically inactive of all the moons of Uranus.",
+		"frenchDescription": "Oberon est la deuxième lune d'Uranus et également la plus grande. La surface d'Oberon est couverte de cratères d'impact, de canyons, de vallées et de plaines. Comme Miranda, elle a également des chaînes de montagnes uniques. La surface d'Obéron est la plus ancienne et la plus géologiquement inactive de toutes les lunes d'Uranus.",
+        "isPlanet": false,
+        "moons": null,
+        "semimajorAxis": 583500,
+        "perihelion": 582702,
+        "aphelion": 584336,
+        "eccentricity": 0.0014,
+        "inclination": 0.07,
+        "mass": {
+            "massValue": 28.8,
+            "massExponent": 20
+        },
+        "vol": null,
+        "density": 1.56,
+        "gravity": 0,
+        "escape": 0,
+        "meanRadius": 761.4,
+        "equaRadius": 0,
+        "polarRadius": 0,
+        "flattening": 0,
+        "dimension": "",
+        "sideralOrbit": 13.46323,
+        "sideralRotation": 323.1176,
+        "aroundPlanet": {
+            "planet": "uranus",
+            "rel": "https://apollo-api.martinnoel.fr/solar-system/planets/uranus"
+        },
+        "discoveredBy": "William Herschel",
+        "discoveryDate": "11/01/1787",
+        "alternativeName": "",
+        "axialTilt": 0,
+        "avgTemp": 0,
+        "mainAnomaly": 0,
+        "argPeriapsis": 0,
+        "longAscNode": 0,
+        "bodyType": "Moon",
+        "rel": "https://apollo-api.martinnoel.fr/solar-system/moons/oberon"
+}]}

@@ -1,0 +1,47 @@
+{
+    "bodies": [{
+        "id": "encelade",
+        "name": "Encelade",
+        "englishName": "Enceladus",
+        "image": "https://apollo-api.martinnoel.fr/solar-system/moons/images/encelade.png",
+		"3dModel": "https://apollo-api.martinnoel.fr/solar-system/moons/3d/encelade.glb",
+		"englishDescription": "It is the sixth largest moon of Saturn but fourteenth in distance. A probe observed jets of material on its surface that could be similar to geysers composed of \"a sort of carbon dioxide mixed with a natural gas essence,\" and which appear to indicate the presence of liquid water beneath the surface.",
+		"frenchDescription": "C’est la 6eme lune de Saturne par sa taille mais quatorzième par son éloignement. Une sonde a observé à sa surface des jets de matière qui pourraient être semblables à des geysers composés \"d'une sorte d'eau carbonique mélangée à une essence de gaz naturel\", et qui semblent indiquer la présence d'eau liquide sous la surface.",
+        "isPlanet": false,
+        "moons": null,
+        "semimajorAxis": 238042,
+        "perihelion": 236830,
+        "aphelion": 239066,
+        "eccentricity": 0.0045,
+        "inclination": 0,
+        "mass": {
+            "massValue": 1.08,
+            "massExponent": 20
+        },
+        "vol": null,
+        "density": 1.61,
+        "gravity": 0,
+        "escape": 0,
+        "meanRadius": 504.2,
+        "equaRadius": 0,
+        "polarRadius": 0,
+        "flattening": 0,
+        "dimension": "",
+        "sideralOrbit": 1.37,
+        "sideralRotation": 32.88,
+        "aroundPlanet": {
+            "planet": "saturne",
+            "rel": "https://apollo-api.martinnoel.fr/solar-system/planets/saturn"
+        },
+        "discoveredBy": "William Herschel",
+        "discoveryDate": "28/08/1789",
+        "alternativeName": "",
+        "axialTilt": 0,
+        "avgTemp": 0,
+        "mainAnomaly": 0,
+        "argPeriapsis": 0,
+        "longAscNode": 0,
+        "bodyType": "Moon",
+        "rel": "https://apollo-api.martinnoel.fr/solar-system/moons/encelade"
+    }]
+}

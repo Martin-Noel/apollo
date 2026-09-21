@@ -1,0 +1,47 @@
+{
+    "bodies": [{
+        "id": "triton",
+        "name": "Triton",
+        "englishName": "Triton",
+        "image": "https://apollo-api.martinnoel.fr/solar-system/moons/images/triton.png",
+		"3dModel": "https://apollo-api.martinnoel.fr/solar-system/moons/3d/triton.glb",
+		"englishDescription": "Triton is the largest moon of Neptune and the seventh farthest moon from Neptune. The surface of Triton is covered in nitrogen and methane ice, as well as water ice and rocks. There are indications of geological activity on the moon, including ice geysers and volcanoes that project particles to high altitudes. Triton is classified as an irregular moon, as it orbits in the opposite direction to Neptune's rotation.",
+		"frenchDescription": "Triton est la plus grande lune de Neptune et la septième lune la plus éloignée de Neptune. La surface de Triton est couverte de glace d'azote et de méthane, ainsi que de glace d'eau et de roches. Il y a des indices d'activité géologique sur la lune, y compris des geysers et des volcans de glace qui projettent des particules à des altitudes élevées. Triton est classé comme une lune irrégulière, car elle orbite dans le sens opposé à la rotation de Neptune.",
+        "isPlanet": false,
+        "moons": null,
+        "semimajorAxis": 354760,
+        "perihelion": 354753,
+        "aphelion": 354765,
+        "eccentricity": 0.00002,
+        "inclination": 157.345,
+        "mass": {
+            "massValue": 2.14,
+            "massExponent": 22
+        },
+        "vol": null,
+        "density": 2.05,
+        "gravity": 0.78,
+        "escape": 0,
+        "meanRadius": 1353.4,
+        "equaRadius": 0,
+        "polarRadius": 0,
+        "flattening": 0,
+        "dimension": "",
+        "sideralOrbit": 5.87685,
+        "sideralRotation": 141.0444,
+        "aroundPlanet": {
+            "planet": "neptune",
+            "rel": "https://apollo-api.martinnoel.fr/solar-system/planets/neptune"
+        },
+        "discoveredBy": "William Lassell",
+        "discoveryDate": "10/10/1846",
+        "alternativeName": "",
+        "axialTilt": 0,
+        "avgTemp": 0,
+        "mainAnomaly": 0,
+        "argPeriapsis": 0,
+        "longAscNode": 0,
+        "bodyType": "Moon",
+        "rel": "https://apollo-api.martinnoel.fr/solar-system/moons/triton"
+    }]
+}

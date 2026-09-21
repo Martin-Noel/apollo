@@ -1,0 +1,47 @@
+{
+    "bodies": [{
+        "id": "ganymede",
+        "name": "Ganymède",
+        "englishName": "Ganymede",
+        "image": "https://apollo-api.martinnoel.fr/solar-system/moons/images/ganymede.png",
+		"3dModel": "https://apollo-api.martinnoel.fr/solar-system/moons/3d/ganymede.glb",
+		"englishDescription": "Ganymede is the largest moon of Jupiter and also the largest moon in the solar system. The mountains of Ganymede are among the highest in the solar system.",
+		"frenchDescription": "Ganymède est la plus grande lune de Jupiter et également la plus grande lune du système solaire. Les montagnes de Ganymède sont parmi les plus hautes du système solaire.",
+        "isPlanet": false,
+        "moons": null,
+        "semimajorAxis": 1070400,
+        "perihelion": 0,
+        "aphelion": 0,
+        "eccentricity": 0.001,
+        "inclination": 0.177,
+        "mass": {
+            "massValue": 1.4819,
+            "massExponent": 23
+        },
+        "vol": null,
+        "density": 1.94,
+        "gravity": 1.428,
+        "escape": 0,
+        "meanRadius": 2631.2,
+        "equaRadius": 0,
+        "polarRadius": 0,
+        "flattening": 0,
+        "dimension": "",
+        "sideralOrbit": 7.15455,
+        "sideralRotation": 171.7093,
+        "aroundPlanet": {
+            "planet": "jupiter",
+            "rel": "https://apollo-api.martinnoel.fr/solar-system/planets/jupiter"
+        },
+        "discoveredBy": "Galileo Galilei",
+        "discoveryDate": "11/01/1610",
+        "alternativeName": "",
+        "axialTilt": 0,
+        "avgTemp": 0,
+        "mainAnomaly": 0,
+        "argPeriapsis": 0,
+        "longAscNode": 0,
+        "bodyType": "Moon",
+        "rel": "https://apollo-api.martinnoel.fr/solar-system/moons/ganymede"
+    }]
+}

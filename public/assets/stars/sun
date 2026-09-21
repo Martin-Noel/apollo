@@ -1,0 +1,47 @@
+{
+	"bodies": [{
+		"id": "soleil",
+		"name": "Le Soleil",
+		"englishName": "Sun",
+		"image": "https://apollo-api.martinnoel.fr/solar-system/stars/images/sun.png",
+		"3dModel": "https://apollo-api.martinnoel.fr/solar-system/stars/3d/sun.glb",
+		"englishDescription": "The Sun is a star and it's the closest to Earth! It's a massive ball of plasma that is held together by its own gravity, and its energy is so great that its core reaches the stage of nuclear fusion, reaching temperatures of a few million degrees. It's hotter than your mother's toaster...",
+		"frenchDescription": "Le soleil est une étoile et c’est la plus proche de la Terre! C’est une boule massive de plasma qui se lie par sa propre gravité, l'énergie est telle que son noyau atteint le stade de fusion nucléaire, quelques millions de degrés. Plus chaud que le grille-pain de ta mère…",
+		"isPlanet": false,
+		"moons": null,
+		"semimajorAxis": 0,
+		"perihelion": 0,
+		"aphelion": 0,
+		"eccentricity": 0,
+		"inclination": 0,
+		"mass": {
+			"massValue": 1.989,
+			"massExponent": 30
+		},
+		"vol": {
+			"volValue": 1.412,
+			"volExponent": 18
+		},
+		"density": 1,
+		"gravity": 0,
+		"escape": 0,
+		"meanRadius": 695508,
+		"equaRadius": 696342,
+		"polarRadius": 0,
+		"flattening": 0.00009,
+		"dimension": "",
+		"sideralOrbit": 0,
+		"sideralRotation": 0,
+		"aroundPlanet": null,
+		"discoveredBy": "",
+		"discoveryDate": "",
+		"alternativeName": "",
+		"axialTilt": 7.25,
+		"avgTemp": 0,
+		"mainAnomaly": 0,
+		"argPeriapsis": 0,
+		"longAscNode": 0,
+		"bodyType": "Star",
+		"rel": "https://apollo-api.martinnoel.fr/solar-system/stars/sun"
+	}]
+}

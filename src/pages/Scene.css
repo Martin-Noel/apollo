@@ -22,21 +22,5 @@ justify-content: space-between;
 }
 
 .canvas {
-    position: absolute;  
-}
-.capybara {
-    width: 4em;
-    bottom: -600px;
-    left: 35%;
-    animation: fly 5s  infinite;
-}
-
-@keyframes fly {
-    0% {
-        transform: translate(400px,400px)
-    }
-
-    100% {
-        transform: translate(-500px,-500px)rotate(360deg)
-    }
+    position: absolute;
 }

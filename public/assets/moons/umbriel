@@ -1,0 +1,47 @@
+{
+    "bodies": [{
+        "id": "umbriel",
+        "name": "Umbriel",
+        "englishName": "Umbriel",
+        "image": "https://apollo-api.martinnoel.fr/solar-system/moons/images/umbriel.png",
+		"3dModel": "https://apollo-api.martinnoel.fr/solar-system/moons/3d/umbriel.glb",
+		"englishDescription": "The surface of Umbriel is one of the oldest and coldest among all of Uranus moons. It is dark and reflects very little light, which may be due to the presence of organic materials or a layer of dark ice.",
+		"frenchDescription": "La surface d'Umbriel est l'une des plus anciennes et des plus froides de toutes les lunes d'Uranus. Elle est sombre et reflète très peu de lumière, ce qui peut être dû à la présence de matériaux organiques ou à une couche de glace sombre.",
+        "isPlanet": false,
+        "moons": null,
+        "semimajorAxis": 266000,
+        "perihelion": 265100,
+        "aphelion": 267500,
+        "eccentricity": 0.0039,
+        "inclination": 0.13,
+        "mass": {
+            "massValue": 12.2,
+            "massExponent": 20
+        },
+        "vol": null,
+        "density": 1.46,
+        "gravity": 0,
+        "escape": 0,
+        "meanRadius": 584.7,
+        "equaRadius": 0,
+        "polarRadius": 0,
+        "flattening": 0,
+        "dimension": "",
+        "sideralOrbit": 4.14418,
+        "sideralRotation": 99.499,
+        "aroundPlanet": {
+            "planet": "uranus",
+            "rel": "https://apollo-api.martinnoel.fr/solar-system/planets/uranus"
+        },
+        "discoveredBy": "William Lassell",
+        "discoveryDate": "24/10/1851",
+        "alternativeName": "",
+        "axialTilt": 0,
+        "avgTemp": 0,
+        "mainAnomaly": 0,
+        "argPeriapsis": 0,
+        "longAscNode": 0,
+        "bodyType": "Moon",
+        "rel": "https://apollo-api.martinnoel.fr/solar-system/moons/umbriel"
+    }]
+}

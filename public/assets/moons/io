@@ -1,0 +1,47 @@
+{
+    "bodies": [{
+        "id": "io",
+        "name": "Io",
+        "englishName": "Io",
+        "image": "https://apollo-api.martinnoel.fr/solar-system/moons/images/io.png",
+		"3dModel": "https://apollo-api.martinnoel.fr/solar-system/moons/3d/io.glb",
+		"englishDescription": "Io is the innermost moon of Jupiter and also the fourth largest in our solar system. Its surface is extremely active and volcanic, full of lava lakes (reminiscent of Mustafar, the iconic lava planet from Star Wars!).",
+		"frenchDescription": "Io est la première lune de Jupiter et également la quatrième plus grande de notre système solaire, sa surface est extrêmement active et volcanique, pleine de lac de lave (de quoi rappeler Mustafar la planète lave emblématique de Star Wars!).",
+        "isPlanet": false,
+        "moons": null,
+        "semimajorAxis": 421800,
+        "perihelion": 420071,
+        "aphelion": 423529,
+        "eccentricity": 0.004,
+        "inclination": 0.036,
+        "mass": {
+            "massValue": 8.932,
+            "massExponent": 22
+        },
+        "vol": null,
+        "density": 3.53,
+        "gravity": 1.79,
+        "escape": 0,
+        "meanRadius": 1821.5,
+        "equaRadius": 0,
+        "polarRadius": 0,
+        "flattening": 0,
+        "dimension": "",
+        "sideralOrbit": 1.76914,
+        "sideralRotation": 42.4593,
+        "aroundPlanet": {
+            "planet": "jupiter",
+            "rel": "https://apollo-api.martinnoel.fr/solar-system/planets/jupiter"
+        },
+        "discoveredBy": "Galileo Galilei",
+        "discoveryDate": "07/01/1610",
+        "alternativeName": "",
+        "axialTilt": 0,
+        "avgTemp": 0,
+        "mainAnomaly": 0,
+        "argPeriapsis": 0,
+        "longAscNode": 0,
+        "bodyType": "Moon",
+        "rel": "https://apollo-api.martinnoel.fr/solar-system/moons/io"
+    }]
+}

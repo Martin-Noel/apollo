@@ -1,0 +1,64 @@
+{
+    "bodies": [{
+        "id": "jupiter",
+        "name": "Jupiter",
+        "englishName": "Jupiter",
+        "image": "https://apollo-api.martinnoel.fr/solar-system/planets/images/jupiter.png",
+        "3dModel": "https://apollo-api.martinnoel.fr/solar-system/planets/3d/jupiter.glb",
+        "englishDescription": "It's the largest planet in our solar system and also has the shortest day, completing one rotation in less than 10 hours. However, one year on Jupiter is equivalent to 12 years on Earth. For centuries, a gigantic storm several times larger than Earth has been observed! Kind of like Donald Trump's ego.",
+        "frenchDescription": "C’est la plus grosse planète de notre système solaire et qui a également le jour le plus court, elle fait un tour sur elle-même en moins de 10 heures, par contre 1 année sur Jupiter  équivaut à 12 ans sur Terre. On observe depuis des siècles une gigantesque tempête qui est plusieurs fois plus grosse que la Terre! Comme l’ego de Donald Trump.",
+        "isPlanet": true,
+        "moons": [
+            {
+            "moon": "Io",
+            "rel": "https://apollo-api.martinnoel.fr/solar-system/moons/io"
+            },
+            {
+            "moon": "Europe",
+            "rel": "https://apollo-api.martinnoel.fr/solar-system/moons/europe"
+            },
+            {
+            "moon": "Ganymède",
+            "rel": "https://apollo-api.martinnoel.fr/solar-system/moons/ganymede"
+            },
+            {
+            "moon": "Callisto",
+            "rel": "https://apollo-api.martinnoel.fr/solar-system/moons/callisto"
+            }
+        ],
+        "semimajorAxis": 778340821,
+        "perihelion": 740379835,
+        "aphelion": 816620000,
+        "eccentricity": 0.0489,
+        "inclination": 1.304,
+        "mass": {
+            "massValue": 1.89819,
+            "massExponent": 27
+        },
+        "vol": {
+            "volValue": 1.43128,
+            "volExponent": 15
+        },
+        "density": 1.3262,
+        "gravity": 24.79,
+        "escape": 60200,
+        "meanRadius": 69911,
+        "equaRadius": 71492,
+        "polarRadius": 66854,
+        "flattening": 0.06487,
+        "dimension": "",
+        "sideralOrbit": 4332.589,
+        "sideralRotation": 9.925,
+        "aroundPlanet": null,
+        "discoveredBy": "",
+        "discoveryDate": "",
+        "alternativeName": "",
+        "axialTilt": 3.12,
+        "avgTemp": 165,
+        "mainAnomaly": 20.02,
+        "argPeriapsis": 273.442,
+        "longAscNode": 100.398,
+        "bodyType": "Planet",
+        "rel": "https://apollo-api.martinnoel.fr/solar-system/planets/jupiter"
+    }]
+}

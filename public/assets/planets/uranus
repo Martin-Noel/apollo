@@ -1,0 +1,68 @@
+{
+    "bodies": [{
+        "id": "uranus",
+        "name": "Uranus",
+        "englishName": "Uranus",
+        "image": "https://apollo-api.martinnoel.fr/solar-system/planets/images/uranus.png",
+        "3dModel": "https://apollo-api.martinnoel.fr/solar-system/planets/3d/uranus.glb",
+        "englishDescription": "It's an ice giant where the most violent winds in the solar system are found due to its particular rotation. The planet's interior rotates in 17 hours, but its upper atmosphere rotates three hours faster. Near the poles, the winds blow in the direction of the planet's rotation, but near the equator, they go in the opposite direction! It's the only planet that rotates on a horizontal axis. It's believed that Uranus was hit by a planet the size of Earth, which knocked it over. Kind of like your aunt and uncle after New Year's Eve.",
+        "frenchDescription": "C’est une géante de glace où l’on trouve les vents les plus violents du système solaire à cause de sa rotation particulière. L'intérieur de la planète fait une rotation en 17 heures, mais sa haute atmosphère le fait en trois heures de moins. Près des pôles, les vents soufflent dans le sens de la rotation de la planète. Mais près de l'équateur, ils vont dans le sens contraire ! C’est la seule planète qui tourne sur un axe horizontal. On suppose qu’Uranus a été percutée par une planète de la taille de la Terre, ce qui l’aurait couchée. Comme ton oncle et ta tante après le jour de l’an.",
+        "isPlanet": true,
+        "moons": [
+            {
+            "moon": "Ariel",
+            "rel": "https://apollo-api.martinnoel.fr/solar-system/moons/ariel"
+            },
+            {
+            "moon": "Umbriel",
+            "rel": "https://apollo-api.martinnoel.fr/solar-system/moons/umbriel"
+            },
+            {
+            "moon": "Titania",
+            "rel": "https://apollo-api.martinnoel.fr/solar-system/moons/titania"
+            },
+            {
+            "moon": "Obéron",
+            "rel": "https://apollo-api.martinnoel.fr/solar-system/moons/oberon"
+            },
+            {
+            "moon": "Miranda",
+            "rel": "https://apollo-api.martinnoel.fr/solar-system/moons/miranda"
+            }
+        ],
+        "semimajorAxis": 2870658186,
+        "perihelion": 2734998229,
+        "aphelion": 3006318143,
+        "eccentricity": 0.0457,
+        "inclination": 0.772,
+        "mass": {
+            "massValue": 8.68127,
+            "massExponent": 25
+        },
+        "vol": {
+            "volValue": 6.833,
+            "volExponent": 13
+        },
+        "density": 1.27,
+        "gravity": 8.87,
+        "escape": 21380,
+        "meanRadius": 25362,
+        "equaRadius": 25559,
+        "polarRadius": 24973,
+        "flattening": 0.02293,
+        "dimension": "",
+        "sideralOrbit": 30685.4,
+        "sideralRotation": -17.24,
+        "aroundPlanet": null,
+        "discoveredBy": "William Herschel",
+        "discoveryDate": "13/03/1781",
+        "alternativeName": "",
+        "axialTilt": 97.77,
+        "avgTemp": 76,
+        "mainAnomaly": 142.2386,
+        "argPeriapsis": 98.862,
+        "longAscNode": 73.967,
+        "bodyType": "Planet",
+        "rel": "https://apollo-api.martinnoel.fr/solar-system/planets/uranus"
+    }]
+}

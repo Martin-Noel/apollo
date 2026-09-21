@@ -1,0 +1,52 @@
+{
+    "bodies": [{
+        "id": "pluton",
+        "name": "Pluton",
+        "englishName": "Pluto",
+        "image": "https://apollo-api.martinnoel.fr/solar-system/planets/images/pluto.png",
+        "3dModel": "https://apollo-api.martinnoel.fr/solar-system/planets/3d/pluto.glb",
+        "englishDescription": "It's the most voluminous known dwarf planet in our solar system. It receives very little light from the Sun, hence its name derived from the god of the Enderworld. It has been downgraded, like your stepfather's opinion of you when he caught you doing LeBron.",
+        "frenchDescription": "C’est une planète naine la plus volumineuse connue de notre système solaire. Elle ne reçoit que très peu de lumière de la part du soleil d'où son nom tiré du dieu des Enfers. Elle a été déclassée, comme l'estime que ton beau-père avait de toi quand il t’a surpris en plein Lebron.",
+        "isPlanet": true,
+        "moons": [
+            {
+            "moon": "Charon",
+            "rel": "https://apollo-api.martinnoel.fr/solar-system/moons/charon"
+            }
+        ],
+        "semimajorAxis": 5906440628,
+        "perihelion": 4436756954,
+        "aphelion": 7376124302,
+        "eccentricity": 0.2488,
+        "inclination": 17.16,
+        "mass": {
+            "massValue": 1.303,
+            "massExponent": 22
+        },
+        "vol": {
+            "volValue": 7.15,
+            "volExponent": 9
+        },
+        "density": 1.89,
+        "gravity": 0.62,
+        "escape": 1210,
+        "meanRadius": 1188.3,
+        "equaRadius": 1188.3,
+        "polarRadius": 1195,
+        "flattening": 0,
+        "dimension": "",
+        "sideralOrbit": 90465,
+        "sideralRotation": -153.2928,
+        "aroundPlanet": null,
+        "discoveredBy": "Clyde W. Tombaugh",
+        "discoveryDate": "18/02/1930",
+        "alternativeName": "",
+        "axialTilt": 122.5,
+        "avgTemp": 44,
+        "mainAnomaly": 14.53,
+        "argPeriapsis": 113.175,
+        "longAscNode": 110.088,
+        "bodyType": "Planet",
+        "rel": "https://apollo-api.martinnoel.fr/solar-system/planets/pluto"
+    }]
+}

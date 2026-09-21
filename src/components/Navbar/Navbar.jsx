@@ -1,31 +1,31 @@
-import { useEffect, useState } from 'react';
-import axios from 'axios';
+import { Suspense } from 'react';
+import PropTypes from 'prop-types';
 import NavbarItem from './NavbarItem/NavbarItem';
 import './Navbar.css';
 
-const Navbar = ({handleSetObject, handleClicked}) => {
-
-    const [navPlanet, setnavPlanet] = useState([]);
-
-    useEffect(() => {
-        axios
-            .get('https://apollo-api.martinnoel.fr/solar-system/solar-system')
-            .then((res) => setnavPlanet(res.data.bodies));
-    }, []);
+const Navbar = ({objects, handleSetObject, handleClicked}) => {
 
     return (
         <div className="navbar">
-            {navPlanet &&
-            navPlanet
-                .filter((object) => object.bodyType === 'Star' || object.bodyType === 'Planet')
-                .map((planet, index) => <NavbarItem 
-                                        key={planet.id} 
-                                        navPlanet={planet} 
-                                        index={index} 
-                                        handleSetObject={handleSetObject}
-                                        handleClicked={handleClicked} />)}
+            <Suspense fallback={null}>
+                {objects &&
+                objects
+                    .filter((object) => object.bodyType === 'Star' || object.bodyType === 'Planet')
+                    .map((planet, index) => <NavbarItem
+                                            key={planet.id}
+                                            navPlanet={planet}
+                                            index={index}
+                                            handleSetObject={handleSetObject}
+                                            handleClicked={handleClicked} />)}
+            </Suspense>
         </div>
     );
+};
+
+Navbar.propTypes = {
+    objects: PropTypes.arrayOf(PropTypes.object),
+    handleSetObject: PropTypes.func.isRequired,
+    handleClicked: PropTypes.func.isRequired,
 };
 
 export default Navbar;

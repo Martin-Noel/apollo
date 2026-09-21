@@ -1,0 +1,47 @@
+{
+	"bodies": [{
+		"id": "ariel",
+		"name": "Ariel",
+		"englishName": "Ariel",
+		"image": "https://apollo-api.martinnoel.fr/solar-system/moons/images/ariel.png",
+		"3dModel": "https://apollo-api.martinnoel.fr/solar-system/moons/3d/ariel.glb",
+		"englishDescription": "Mainly composed of rock and ice, Ariel is the first moon of Uranus. It has a surface containing impact craters and is crossed by a network of steep faults and canyons. This shows signs of more recent geological activity than the other moons of Uranus, resulting from the significant tidal forces exerted by the planet.",
+		"frenchDescription": "Principalement composé de roche et de glace, Ariel est la première lune d’Uranus. Elle a une surface comprenant des cratères d'impact et est traversée par un réseau de failles escarpées et de canyons. Cela montre des signes d'une activité géologique plus récente que les autres lunes d'Uranus, résultant des importantes forces de marée exercées par la planète.",
+		"isPlanet": false,
+		"moons": null,
+		"semimajorAxis": 190900,
+		"perihelion": 190670,
+		"aphelion": 191130,
+		"eccentricity": 0.0012,
+		"inclination": 0.04,
+		"mass": {
+			"massValue": 12.9,
+			"massExponent": 20
+		},
+		"vol": null,
+		"density": 1.59,
+		"gravity": 0,
+		"escape": 0,
+		"meanRadius": 581.1,
+		"equaRadius": 0,
+		"polarRadius": 0,
+		"flattening": 0,
+		"dimension": "",
+		"sideralOrbit": 2.52038,
+		"sideralRotation": 60.4891,
+		"aroundPlanet": {
+			"planet": "uranus",
+			"rel": "https://apollo-api.martinnoel.fr/solar-system/planets/uranus"
+		},
+		"discoveredBy": "William Lassell",
+		"discoveryDate": "24/10/1851",
+		"alternativeName": "",
+		"axialTilt": 0,
+		"avgTemp": 0,
+		"mainAnomaly": 0,
+		"argPeriapsis": 0,
+		"longAscNode": 0,
+		"bodyType": "Moon",
+		"rel": "https://apollo-api.martinnoel.fr/solar-system/moons/ariel"
+	}]
+}

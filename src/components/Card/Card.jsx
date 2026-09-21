@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import './Card.css';
 
 const Card = ( {scenePlanet, handleClose} ) => {
@@ -42,6 +43,19 @@ const moons = scenePlanet.moons;
         </div>
         </div>
     );
+};
+
+Card.propTypes = {
+    scenePlanet: PropTypes.shape({
+        englishName: PropTypes.string,
+        bodyType: PropTypes.string,
+        image: PropTypes.string,
+        englishDescription: PropTypes.string,
+        moons: PropTypes.arrayOf(PropTypes.shape({
+            moon: PropTypes.string,
+        })),
+    }).isRequired,
+    handleClose: PropTypes.func.isRequired,
 };
 
 export default Card;

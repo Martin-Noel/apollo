@@ -1,0 +1,46 @@
+{
+    "bodies": [{
+        "id": "miranda",
+        "name": "Miranda",
+        "englishName": "Miranda",
+        "image": "https://apollo-api.martinnoel.fr/solar-system/moons/images/miranda.png",
+		"3dModel": "https://apollo-api.martinnoel.fr/solar-system/moons/3d/miranda.glb",
+		"englishDescription": "Miranda is the fifth moon of Uranus in terms of distance. It has a very diverse surface, with spectacular cliffs, craters, plains, and mountain ranges rising over 20 kilometers high.",
+		"frenchDescription": "Miranda est la cinquième lune d'Uranus en termes de distance. Elle a une surface très diverse, avec des falaises spectaculaires, des cratères, des plaines et des chaînes de montagnes qui s'élèvent à plus de 20 kilomètres de haut.",
+        "isPlanet": false,
+        "moons": null,
+        "semimajorAxis": 129900,
+        "perihelion": 129703,
+        "aphelion": 130041,
+        "eccentricity": 0.0013,
+        "inclination": 4.34,
+        "mass": {
+            "massValue": 6.6,
+            "massExponent": 19
+        },
+        "vol": null,
+        "density": 1.2,
+        "gravity": 0,
+        "escape": 0,
+        "meanRadius": 240,
+        "equaRadius": 0,
+        "polarRadius": 0,
+        "flattening": 0,
+        "dimension": "",
+        "sideralOrbit": 1.41348,
+        "sideralRotation": 33.9235,
+        "aroundPlanet": {
+            "planet": "uranus",
+            "rel": "https://apollo-api.martinnoel.fr/solar-system/planets/uranus"
+        },
+        "discoveredBy": "Gerard Kuiper",
+        "discoveryDate": "16/02/1948",
+        "alternativeName": "",
+        "axialTilt": 0,
+        "avgTemp": 0,
+        "mainAnomaly": 0,
+        "argPeriapsis": 0,
+        "longAscNode": 0,
+        "bodyType": "Moon",
+        "rel": "https://apollo-api.martinnoel.fr/solar-system/moons/miranda"
+}]}

@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Canvas } from '@react-three/fiber';
 import { useGLTF } from '@react-three/drei';
+import PropTypes from 'prop-types';
 import TurnPlanet from '../TurnPlanet';
 import './NavbarItem.css';
 
@@ -35,6 +36,16 @@ const NavbarItem = ({ navPlanet, index, handleSetObject, handleClicked }) => {
             </div>
         </div>
     );
+};
+
+NavbarItem.propTypes = {
+    navPlanet: PropTypes.shape({
+        model3d: PropTypes.string.isRequired,
+        englishName: PropTypes.string,
+    }).isRequired,
+    index: PropTypes.number.isRequired,
+    handleSetObject: PropTypes.func.isRequired,
+    handleClicked: PropTypes.func.isRequired,
 };
 
 export default NavbarItem;

@@ -1,0 +1,49 @@
+{
+    "bodies": [{
+        "id": "charon",
+        "name": "Charon",
+        "englishName": "Charon",
+        "image": "https://apollo-api.martinnoel.fr/solar-system/moons/images/charon.png",
+		"3dModel": "https://apollo-api.martinnoel.fr/solar-system/moons/3d/charon.glb",
+		"englishDescription": "Charon is the first moon of Pluto, named after a character from Greek mythology, the ferryman of the underworld. Charon is about half the size of Pluto itself. It is also the closest to Pluto and is in synchronous orbit, meaning it always shows the same face to Pluto.",
+		"frenchDescription": "Charon est la première lune de Pluton qui tient son nom d’un personnage de la mythologie grecque, le passeur des enfers. Charon fait environ la moitié de la taille de Pluton elle-même. Elle est également la plus proche de Pluton et est en orbite synchrone, ce qui signifie qu'elle montre toujours la même face à Pluton.",
+        "isPlanet": false,
+        "moons": null,
+        "semimajorAxis": 19591,
+        "perihelion": 19587,
+        "aphelion": 19595,
+        "eccentricity": 0.0002,
+        "inclination": 0.08,
+        "mass": {
+            "massValue": 1.58,
+            "massExponent": 21
+        },
+        "vol": {
+            "volValue": 9.32,
+            "volExponent": 8
+        },
+        "density": 1,
+        "gravity": 0,
+        "escape": 0,
+        "meanRadius": 606,
+        "equaRadius": 0,
+        "polarRadius": 0,
+        "flattening": 0,
+        "dimension": "",
+        "sideralOrbit": 6.387,
+        "sideralRotation": 0,
+        "aroundPlanet": {
+            "planet": "pluton",
+            "rel": "https://apollo-api.martinnoel.fr/solar-system/planets/pluto"
+        },
+        "discoveredBy": "James W. Christy",
+        "discoveryDate": "13/04/1978",
+        "alternativeName": "S/1978 P1",
+        "axialTilt": 0,
+        "avgTemp": 0,
+        "mainAnomaly": 0,
+        "argPeriapsis": 0,
+        "longAscNode": 0,
+        "bodyType": "Moon",
+        "rel": "https://apollo-api.martinnoel.fr/solar-system/moons/charon"
+}]}

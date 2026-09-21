@@ -1,0 +1,47 @@
+{
+    "bodies": [{
+        "id": "europe",
+        "name": "Europe",
+        "englishName": "Europa",
+        "image": "https://apollo-api.martinnoel.fr/solar-system/moons/images/europe.png",
+		"3dModel": "https://apollo-api.martinnoel.fr/solar-system/moons/3d/europe.glb",
+		"englishDescription": "Europe is the fourth largest moon of Jupiter and is considered one of the most promising places for the search for extraterrestrial life in our solar system due to the potential presence of a subsurface ocean of liquid water.",
+		"frenchDescription": "Europe est la quatrième plus grande lune de Jupiter et est considérée comme l'un des endroits les plus prometteurs pour la recherche de vie extraterrestre dans notre système solaire en raison de la présence potentielle d'un océan souterrain d'eau liquide.",
+        "isPlanet": false,
+        "moons": null,
+        "semimajorAxis": 671100,
+        "perihelion": 0,
+        "aphelion": 0,
+        "eccentricity": 0.009,
+        "inclination": 0.466,
+        "mass": {
+            "massValue": 4.8,
+            "massExponent": 22
+        },
+        "vol": null,
+        "density": 3.01,
+        "gravity": 1.31,
+        "escape": 0,
+        "meanRadius": 1560.8,
+        "equaRadius": 0,
+        "polarRadius": 0,
+        "flattening": 0,
+        "dimension": "",
+        "sideralOrbit": 3.55118,
+        "sideralRotation": 85.2293,
+        "aroundPlanet": {
+            "planet": "jupiter",
+            "rel": "https://apollo-api.martinnoel.fr/solar-system/planets/jupiter"
+        },
+        "discoveredBy": "Galileo Galilei",
+        "discoveryDate": "08/01/1610",
+        "alternativeName": "",
+        "axialTilt": 0,
+        "avgTemp": 0,
+        "mainAnomaly": 0,
+        "argPeriapsis": 0,
+        "longAscNode": 0,
+        "bodyType": "Moon",
+        "rel": "https://apollo-api.martinnoel.fr/solar-system/moons/europe"
+    }]
+}

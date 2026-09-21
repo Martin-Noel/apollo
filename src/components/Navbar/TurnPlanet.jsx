@@ -1,5 +1,6 @@
 import { useRef, useState } from 'react';
 import { useFrame } from '@react-three/fiber';
+import PropTypes from 'prop-types';
 
 const TurnPlanet = ({ model, index, handleSetObject, handleClicked }) => {
     const modelRef = useRef();
@@ -29,6 +30,15 @@ const TurnPlanet = ({ model, index, handleSetObject, handleClicked }) => {
             />
     </>
   );
+};
+
+TurnPlanet.propTypes = {
+    model: PropTypes.shape({
+        scene: PropTypes.object,
+    }).isRequired,
+    index: PropTypes.number.isRequired,
+    handleSetObject: PropTypes.func.isRequired,
+    handleClicked: PropTypes.func.isRequired,
 };
 
 export default TurnPlanet;

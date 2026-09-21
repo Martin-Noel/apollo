@@ -1,0 +1,47 @@
+{
+    "bodies": [{
+        "id": "titania",
+        "name": "Titania",
+        "englishName": "Titania",
+        "image": "https://apollo-api.martinnoel.fr/solar-system/moons/images/titania.png",
+		"3dModel": "https://apollo-api.martinnoel.fr/solar-system/moons/3d/titania.glb",
+		"englishDescription": "Titania is the largest moon of Uranus and the second in terms of distance. Fracture marks and dark streaks that could be caused by cryovolcanic eruptions have been observed on its surface.",
+		"frenchDescription": "Titania est la plus grande lune d'Uranus et la deuxième en termes de distance. On y a observé des marques de fractures et des traînées sombres qui pourraient être causées par des éruptions cryo volcaniques.",
+        "isPlanet": false,
+        "moons": null,
+        "semimajorAxis": 436300,
+        "perihelion": 435800,
+        "aphelion": 436800,
+        "eccentricity": 0.0011,
+        "inclination": 0.08,
+        "mass": {
+            "massValue": 34.2,
+            "massExponent": 20
+        },
+        "vol": null,
+        "density": 1.66,
+        "gravity": 0,
+        "escape": 0,
+        "meanRadius": 788.9,
+        "equaRadius": 0,
+        "polarRadius": 0,
+        "flattening": 0,
+        "dimension": "",
+        "sideralOrbit": 8.70587,
+        "sideralRotation": 208.9408,
+        "aroundPlanet": {
+            "planet": "uranus",
+            "rel": "https://apollo-api.martinnoel.fr/solar-system/planets/uranus"
+        },
+        "discoveredBy": "William Herschel",
+        "discoveryDate": "11/01/1787",
+        "alternativeName": "",
+        "axialTilt": 0,
+        "avgTemp": 0,
+        "mainAnomaly": 0,
+        "argPeriapsis": 0,
+        "longAscNode": 0,
+        "bodyType": "Moon",
+        "rel": "https://apollo-api.martinnoel.fr/solar-system/moons/titania"
+    }]
+}

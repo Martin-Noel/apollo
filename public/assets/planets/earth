@@ -1,0 +1,51 @@
+{
+    "bodies": [{
+        "id": "terre",
+        "name": "La Terre",
+        "englishName": "Earth",
+        "image": "https://apollo-api.martinnoel.fr/solar-system/planets/images/earth.png",
+        "3dModel": "https://apollo-api.martinnoel.fr/solar-system/planets/3d/earth.glb",
+        "englishDescription": "Also called \"Gaia\" it's the only planet in our system that has supported life since your grandmother's armpits. It's the only planet that has liquid water on its surface, and it's the densest and largest of the terrestrial planets.",
+        "frenchDescription": "Aussi appelé \"Gaïa\" c’est la seule planète de notre système qui a abrité la vie après les dessous de bras de ta grand-mère. C’est la seule planète qui possède de l’eau liquide à la surface. C’est la planète la plus dense et la plus grosse des planètes telluriques.",
+        "isPlanet": true,
+        "moons": [
+            {
+            "moon": "La Lune",
+            "rel": "https://apollo-api.martinnoel.fr/solar-system/moons/moon"
+            }
+        ],
+        "semimajorAxis": 149598023,
+        "perihelion": 147095000,
+        "aphelion": 152100000,
+        "eccentricity": 0.0167,
+        "inclination": 0,
+        "mass": {
+        "massValue": 5.97237,
+        "massExponent": 24
+        },
+        "vol": {
+        "volValue": 1.08321,
+        "volExponent": 12
+        },
+        "density": 5.5136,
+        "gravity": 9.8,
+        "escape": 11190,
+        "meanRadius": 6371.0084,
+        "equaRadius": 6378.1366,
+        "polarRadius": 6356.8,
+        "flattening": 0.00335,
+        "dimension": "",
+        "sideralOrbit": 365.256,
+        "sideralRotation": 23.9345,
+        "aroundPlanet": null,
+        "discoveredBy": "",
+        "discoveryDate": "",
+        "alternativeName": "",
+        "axialTilt": 23.4393,
+        "avgTemp": 288,
+        "mainAnomaly": 358.617,
+        "argPeriapsis": 85.901,
+        "longAscNode": 18.272,
+        "bodyType": "Planet",
+        "rel": "https://apollo-api.martinnoel.fr/solar-system/planets/earth"
+}]}

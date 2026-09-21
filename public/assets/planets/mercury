@@ -1,0 +1,47 @@
+{
+	"bodies": [{
+		"id": "mercure",
+		"name": "Mercure",
+		"englishName": "Mercury",
+		"image": "https://apollo-api.martinnoel.fr/solar-system/planets/images/mercury.png",
+		"3dModel": "https://apollo-api.martinnoel.fr/solar-system/planets/3d/mercury.glb",
+		"englishDescription": "Here, a year passes in only 88 days! It's the closest planet to the Sun, and its iron core makes up 85% of the planet's radius. It may have formed when the young Sun heated and vaporized rock on Mercury's surface. It has no atmosphere and is therefore bombarded directly by asteroids, creating many craters. Kind of like your 6th-grade class photo.",
+		"frenchDescription": "Ici, une année s’écoule en seulement 88 jours! C’est la planète la plus proche du soleil, son noyau de fer représente 85% du rayon de la planète. Il a pu se former lorsque le Soleil, encore jeune, a chauffé et vaporisé la roche à la surface de Mercure. Elle n’a pas d’atmosphère et est donc tapée de plein fouet par les astéroïdes ce qui lui a créé de nombreux cratères. Un peu comme toi sur ta photo de classe en 6e C.",
+		"isPlanet": true,
+		"moons": null,
+		"semimajorAxis": 57909050,
+		"perihelion": 46001200,
+		"aphelion": 69816900,
+		"eccentricity": 0.2056,
+		"inclination": 7,
+		"mass": {
+			"massValue": 3.30114,
+			"massExponent": 23
+		},
+		"vol": {
+			"volValue": 6.083,
+			"volExponent": 10
+		},
+		"density": 5.4291,
+		"gravity": 3.7,
+		"escape": 4250,
+		"meanRadius": 2439.4,
+		"equaRadius": 2440.53,
+		"polarRadius": 2439.7,
+		"flattening": 0,
+		"dimension": "",
+		"sideralOrbit": 87.969,
+		"sideralRotation": 1407.6,
+		"aroundPlanet": null,
+		"discoveredBy": "",
+		"discoveryDate": "",
+		"alternativeName": "",
+		"axialTilt": 0.0352,
+		"avgTemp": 440,
+		"mainAnomaly": 174.796,
+		"argPeriapsis": 29.022,
+		"longAscNode": 48.378,
+		"bodyType": "Planet",
+		"rel": "https://apollo-api.martinnoel.fr/solar-system/planets/mercury"
+	}]
+}
